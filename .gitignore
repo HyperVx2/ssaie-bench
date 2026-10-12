@@ -1,0 +1,4 @@
+__pycache__/
+*.parquet
+results/*/ollama_server.log
+.venv/

@@ -1,0 +1,16 @@
+{
+  "tier": "homelab",
+  "ts": "2026-10-11T05:09:14+00:00",
+  "host": "homelab",
+  "kernel": "7.0.14-16-pve",
+  "cpu_model": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+  "nproc": 4,
+  "flags_avx2": true,
+  "mem_total": 4294967296,
+  "mem_available": 4225210368,
+  "swap_total": 0,
+  "ollama_version": "0.40.2",
+  "os": "Ubuntu 24.04 LTS",
+  "virt": "lxc",
+  "python": "3.12.3"
+}

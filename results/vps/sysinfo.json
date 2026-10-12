@@ -1,0 +1,16 @@
+{
+  "tier": "vps",
+  "ts": "2026-10-11T11:24:00+00:00",
+  "host": "vps",
+  "kernel": "6.8.0-139-generic",
+  "cpu_model": "AMD EPYC Processor (with IBPB)",
+  "nproc": 4,
+  "flags_avx2": true,
+  "mem_total": 8326946816,
+  "mem_available": 4893159424,
+  "swap_total": 0,
+  "ollama_version": "0.40.2",
+  "os": "Ubuntu 24.04.5 LTS",
+  "virt": "kvm",
+  "python": "3.12.3"
+}

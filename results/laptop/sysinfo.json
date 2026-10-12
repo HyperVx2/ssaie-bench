@@ -1,0 +1,16 @@
+{
+  "tier": "laptop",
+  "ts": "2026-10-11T13:47:28+00:00",
+  "host": "laptop",
+  "kernel": "6.18.33.2-microsoft-standard-WSL2",
+  "cpu_model": "12th Gen Intel(R) Core(TM) i5-1235U",
+  "nproc": 12,
+  "flags_avx2": true,
+  "mem_total": 10178142208,
+  "mem_available": 9432600576,
+  "swap_total": 3221225472,
+  "ollama_version": "0.40.2",
+  "os": "Ubuntu 26.04.1 LTS",
+  "virt": "wsl",
+  "python": "3.14.4"
+}

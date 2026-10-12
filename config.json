@@ -1,0 +1,36 @@
+{
+  "server_models": [
+    "gemma3:1b",
+    "llama3.2:1b",
+    "qwen3.5:0.8b",
+    "qwen3:1.7b",
+    "llama3.2:3b",
+    "phi4-mini:3.8b",
+    "qwen3:4b",
+    "gemma3:4b"
+  ],
+  "laptop_only_models": ["qwen3:8b"],
+  "concurrency_model": "llama3.2:3b",
+  "concurrency_levels": [1, 2, 4],
+  "concurrency_rounds": 2,
+  "ollama_port": 11500,
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 2048
+  },
+  "task_a_num_predict": 8,
+  "task_b_num_predict": 400,
+  "concurrency_num_predict": 200,
+  "request_timeout_s": 900,
+  "speed_subset_size": 20,
+  "speed_task_b_prompts": 5,
+  "gemini_model_preference": [
+    "gemini-2.5-flash",
+    "gemini-3-flash-preview",
+    "gemini-flash-latest",
+    "gemini-2.5-flash-lite",
+    "gemini-2.0-flash"
+  ],
+  "gemini_batch_size": 20
+}

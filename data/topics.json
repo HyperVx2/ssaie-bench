@@ -1,0 +1,22 @@
+[
+  {"id": "B01", "topic": "Propositional logic: logical equivalence and tautologies", "bloom": "Understand"},
+  {"id": "B02", "topic": "Rules of inference (modus ponens, modus tollens, hypothetical syllogism)", "bloom": "Apply"},
+  {"id": "B03", "topic": "Deterministic finite automata: which strings a given DFA accepts", "bloom": "Apply"},
+  {"id": "B04", "topic": "Regular expressions and the languages they describe", "bloom": "Analyze"},
+  {"id": "B05", "topic": "Context-free grammars and derivations", "bloom": "Understand"},
+  {"id": "B06", "topic": "Big-O notation and growth rates of functions", "bloom": "Remember"},
+  {"id": "B07", "topic": "Time complexity of nested loops", "bloom": "Analyze"},
+  {"id": "B08", "topic": "Stacks and queues: order of operations", "bloom": "Apply"},
+  {"id": "B09", "topic": "Binary search trees: insertion and traversal order", "bloom": "Apply"},
+  {"id": "B10", "topic": "Sorting algorithms: stability and worst-case behavior", "bloom": "Understand"},
+  {"id": "B11", "topic": "Graph traversal: breadth-first versus depth-first search", "bloom": "Analyze"},
+  {"id": "B12", "topic": "Number systems: binary, hexadecimal and two's complement", "bloom": "Apply"},
+  {"id": "B13", "topic": "CPU components and the fetch-decode-execute cycle", "bloom": "Remember"},
+  {"id": "B14", "topic": "Memory hierarchy: cache, RAM and secondary storage", "bloom": "Understand"},
+  {"id": "B15", "topic": "Operating systems: processes, threads and scheduling", "bloom": "Understand"},
+  {"id": "B16", "topic": "Computer networks: TCP/IP layers and the role of each protocol", "bloom": "Remember"},
+  {"id": "B17", "topic": "IPv4 addressing and subnet masks", "bloom": "Apply"},
+  {"id": "B18", "topic": "Relational databases: primary keys, foreign keys and normalization", "bloom": "Understand"},
+  {"id": "B19", "topic": "SQL queries: SELECT with WHERE, JOIN and GROUP BY", "bloom": "Analyze"},
+  {"id": "B20", "topic": "Information security: the CIA triad and common attacks such as phishing", "bloom": "Remember"}
+]
