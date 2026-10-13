@@ -27,7 +27,7 @@ The run takes hours, and a sleeping laptop stops it.
 In WSL:
 
 ```bash
-cd "/mnt/c/Users/chada/Documents/202610 SSAIE Project/ssaie-bench"
+cd "/path/to/your/project/ssaie-bench"
 bash setup.sh laptop
 ```
 
@@ -56,12 +56,12 @@ During the run, pause any heavy containers or VMs on this host so they don't ske
 ## Step 3 - Copy the kit to the servers (from WSL)
 
 ```bash
-cd "/mnt/c/Users/chada/Documents/202610 SSAIE Project"
+cd "/path/to/your/project"
 tar czf /tmp/ssaie-bench.tgz --exclude=ssaie-bench/results ssaie-bench
 
 # VPS (use your Tailscale name or IP)
-scp /tmp/ssaie-bench.tgz chada@<VPS>:~/
-ssh chada@<VPS> 'tar xzf ~/ssaie-bench.tgz'
+scp /tmp/ssaie-bench.tgz <user>@<VPS>:~/
+ssh <user>@<VPS> 'tar xzf ~/ssaie-bench.tgz'
 
 # Homelab: to the Proxmox host, then into the LXC
 scp /tmp/ssaie-bench.tgz root@abinguna:/root/
@@ -75,13 +75,13 @@ Detach with `Ctrl+B` then `D`; re-attach with `tmux attach -t bench`.
 
 **Laptop (WSL):**
 ```bash
-cd "/mnt/c/Users/chada/Documents/202610 SSAIE Project/ssaie-bench"
+cd "/path/to/your/project/ssaie-bench"
 tmux new -s bench 'python3 bench.py --tier laptop 2>&1 | tee -a results/laptop_console.log'
 ```
 
 **VPS** (pause your other services first if you can):
 ```bash
-ssh chada@<VPS>
+ssh <user>@<VPS>
 cd ~/ssaie-bench && bash setup.sh vps
 tmux new -s bench 'python3 bench.py --tier vps 2>&1 | tee -a results/vps_console.log'
 ```
@@ -111,18 +111,18 @@ To force a different Gemini model: `GEMINI_MODEL=gemini-2.5-flash-lite python3 f
 
 ```bash
 # from WSL: send the laptop's results to the VPS
-scp "/mnt/c/Users/chada/Documents/202610 SSAIE Project/ssaie-bench/results/laptop/quality.jsonl" \
-    chada@<VPS>:~/ssaie-bench/results/laptop/
+scp "/path/to/your/project/ssaie-bench/results/laptop/quality.jsonl" \
+    <user>@<VPS>:~/ssaie-bench/results/laptop/
 # then on the VPS:
 cd ~/ssaie-bench && python3 frontier.py judge
 ```
-(Create the folder first if needed: `ssh chada@<VPS> 'mkdir -p ~/ssaie-bench/results/laptop'`.)
+(Create the folder first if needed: `ssh <user>@<VPS> 'mkdir -p ~/ssaie-bench/results/laptop'`.)
 
 ## Step 7 - Bring all results back to the laptop folder (from WSL)
 
 ```bash
-cd "/mnt/c/Users/chada/Documents/202610 SSAIE Project/ssaie-bench/results"
-scp -r chada@<VPS>:~/ssaie-bench/results/vps chada@<VPS>:~/ssaie-bench/results/frontier .
+cd "/path/to/your/project/ssaie-bench/results"
+scp -r <user>@<VPS>:~/ssaie-bench/results/vps <user>@<VPS>:~/ssaie-bench/results/frontier .
 ssh root@abinguna 'pct exec 950 -- tar czf /root/res.tgz -C /root/ssaie-bench/results homelab && pct pull 950 /root/res.tgz /root/res-homelab.tgz'
 scp root@abinguna:/root/res-homelab.tgz . && tar xzf res-homelab.tgz && rm res-homelab.tgz
 ```
