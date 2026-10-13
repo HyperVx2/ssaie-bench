@@ -31,14 +31,16 @@ fig.tight_layout(); fig.savefig("out/fig1_accuracy.png",dpi=300); plt.close(fig)
 # ---- Fig 2: seconds per item by machine
 order=[a["model"] for a in A if a["model"]!="qwen3:8b"]
 S={(s["tier"],s["model"]):s for s in rep["speed"]}
-tiers=[("homelab","On-prem i5-6500 (2015), 4 GB",BLUE,"o",-0.22),("vps","Cloud VPS, 4 vCPU, ~4.4 GB",ORANGE,"s",0),("laptop","Laptop i5-1235U, WSL",AQUA,"^",0.22)]
+tiers=[("homelab","On-prem i5-6500 (2015), 4 GB",BLUE,"o",-0.27),("vps","Cloud VPS, 4 vCPU, ~4.4 GB",ORANGE,"s",-0.09),("laptop","Laptop i5-1235U, WSL",AQUA,"^",0.09),("pi","Raspberry Pi 4, 4 GB (ARM)","#52514e","D",0.27)]
 fig,ax=plt.subplots(figsize=(3.5,2.9),dpi=300)
 for t,name,c,mk,off in tiers:
-    xs=[S[(t,m)]["a_wall_med"] for m in order]
-    ax.scatter(xs,[i+off for i in range(len(order))],s=14,marker=mk,color=c,edgecolor="white",linewidth=0.6,label=name,zorder=3)
+    pts=[(S[(t,m)]["a_wall_med"],i+off) for i,m in enumerate(order) if (t,m) in S]
+    xs=[p[0] for p in pts]
+    ax.scatter(xs,[p[1] for p in pts],s=14,marker=mk,color=c,edgecolor="white",linewidth=0.6,label=name,zorder=3)
 ax.set_yticks(range(len(order))); ax.set_yticklabels(order)
-ax.set_xlabel("Median seconds per exam item")
-ax.set_xlim(0,10); ax.grid(axis="x",color=GRID,lw=0.5); ax.set_axisbelow(True)
+ax.set_xlabel("Median seconds per exam item (log scale)")
+ax.set_xscale("log"); ax.set_xlim(1,100)
+ax.set_xticks([1,2,5,10,20,50,100]); ax.set_xticklabels(["1","2","5","10","20","50","100"]); ax.grid(axis="x",color=GRID,lw=0.5); ax.set_axisbelow(True)
 for s in ("top","right"): ax.spines[s].set_visible(False)
 ax.tick_params(length=0)
 ax.legend(loc="lower center",bbox_to_anchor=(0.42,1.0),ncol=1,fontsize=6,frameon=False,handletextpad=0.3)

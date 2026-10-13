@@ -1,0 +1,16 @@
+{
+  "tier": "pi",
+  "ts": "2026-10-12T15:42:18+00:00",
+  "host": "pi",
+  "kernel": "6.12.109+rpt-rpi-v8",
+  "cpu_model": "Cortex-A72",
+  "nproc": 4,
+  "flags_avx2": false,
+  "mem_total": 3981168640,
+  "mem_available": 2844753920,
+  "swap_total": 536866816,
+  "ollama_version": "0.40.3",
+  "os": "Debian GNU/Linux 12 (bookworm)",
+  "virt": "none",
+  "python": "3.11.2"
+}

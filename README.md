@@ -4,7 +4,7 @@ Benchmark code, data and results for the SEA-SSAIE 2027 short paper
 **"Can a Provincial College Run Its Own Exam AI? Benchmarking Small Language Models on Already-Owned, CPU-Only Hardware"**
 (Chad Aga D. Abinguna, MSIT, Graduate School, Samar State University).
 
-Nine open models (0.8B–8B, via [Ollama](https://ollama.com)) were run on three CPU-only machines the author already owned or rented,
+Nine open models (0.8B–8B, via [Ollama](https://ollama.com)) were run on CPU-only machines the author already owned or rented (a 2015 i5-6500 server, a cloud VPS, a laptop, and a Raspberry Pi 4 for speed only),
 against a free-tier Gemini Flash baseline, on:
 
 - **Task A – answering:** 200 computer-science items from the MMLU-Pro test split (seed 2027);
@@ -20,7 +20,7 @@ against a free-tier Gemini Flash baseline, on:
 | Best laptop model (qwen3:8b) | 52.0% | 18 |
 | 1B-class models | 13–22% | 0–5 |
 
-The 2015 on-premise server (i5-6500) answered items 1.6× faster than the rented VPS. A blind human rating of 40 generated
+The 2015 on-premise server (i5-6500) answered items 1.6× faster than the rented VPS; a Raspberry Pi 4 ran 1–4B models 12–16× slower than that server. A blind human rating of 40 generated
 items agreed with the model judge on 90% of key-correctness decisions (Cohen's κ = 0.78) and 95% of usable/unusable decisions (κ = 0.90).
 Full numbers: [`analysis/report.json`](analysis/report.json).
 

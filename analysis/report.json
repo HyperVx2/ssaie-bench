@@ -945,6 +945,96 @@
    "peak_rss_gb": 0.0,
    "min_avail_gb": 0.138698752,
    "errors": 0
+  },
+  {
+   "tier": "pi",
+   "model": "gemma3:1b",
+   "quant": "Q4_K_M",
+   "loaded": true,
+   "load_s": 23.768,
+   "a_n": 20,
+   "a_wall_med": 19.8585,
+   "a_wall_iqr": 16.530499999999996,
+   "prompt_tps_med": 9.21,
+   "b_n": 5,
+   "b_wall_med": 104.754,
+   "gen_tps_med": 1.23,
+   "gen_tps_iqr": 0.04999999999999982,
+   "peak_rss_gb": 1.311080448,
+   "min_avail_gb": 1.483517952,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "model": "llama3.2:1b",
+   "quant": "Q8_0",
+   "loaded": true,
+   "load_s": 35.98,
+   "a_n": 20,
+   "a_wall_med": 21.198999999999998,
+   "a_wall_iqr": 14.034000000000002,
+   "prompt_tps_med": 11.275,
+   "b_n": 4,
+   "b_wall_med": 161.03050000000002,
+   "gen_tps_med": 0.85,
+   "gen_tps_iqr": 0.007500000000000062,
+   "peak_rss_gb": 1.68783872,
+   "min_avail_gb": 1.141686272,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "model": "qwen3:1.7b",
+   "quant": "Q4_K_M",
+   "loaded": true,
+   "load_s": 43.249,
+   "a_n": 20,
+   "a_wall_med": 33.8815,
+   "a_wall_iqr": 24.436000000000003,
+   "prompt_tps_med": 6.705,
+   "b_n": 5,
+   "b_wall_med": 205.505,
+   "gen_tps_med": 0.76,
+   "gen_tps_iqr": 0.020000000000000018,
+   "peak_rss_gb": 2.307751936,
+   "min_avail_gb": 0.621068288,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "model": "llama3.2:3b",
+   "quant": "Q4_K_M",
+   "loaded": true,
+   "load_s": 61.921,
+   "a_n": 20,
+   "a_wall_med": 54.429,
+   "a_wall_iqr": 46.317750000000004,
+   "prompt_tps_med": 3.9699999999999998,
+   "b_n": 5,
+   "b_wall_med": 262.677,
+   "gen_tps_med": 0.52,
+   "gen_tps_iqr": 0.015000000000000013,
+   "peak_rss_gb": 2.934689792,
+   "min_avail_gb": 0.301920256,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "model": "qwen3:4b",
+   "quant": "Q4_K_M",
+   "loaded": true,
+   "load_s": 73.826,
+   "a_n": 20,
+   "a_wall_med": 75.19200000000001,
+   "a_wall_iqr": 68.895,
+   "prompt_tps_med": 2.76,
+   "b_n": 4,
+   "b_wall_med": 190.362,
+   "gen_tps_med": 1.245,
+   "gen_tps_iqr": 0.01750000000000007,
+   "peak_rss_gb": 3.460128768,
+   "min_avail_gb": 0.029556736,
+   "errors": 0
   }
  ],
  "agreement": [
@@ -961,6 +1051,12 @@
    "n": 20
   },
   {
+   "model": "gemma3:1b",
+   "tier": "pi",
+   "same": 19,
+   "n": 20
+  },
+  {
    "model": "llama3.2:1b",
    "tier": "vps",
    "same": 20,
@@ -970,6 +1066,12 @@
    "model": "llama3.2:1b",
    "tier": "homelab",
    "same": 20,
+   "n": 20
+  },
+  {
+   "model": "llama3.2:1b",
+   "tier": "pi",
+   "same": 19,
    "n": 20
   },
   {
@@ -997,6 +1099,12 @@
    "n": 20
   },
   {
+   "model": "qwen3:1.7b",
+   "tier": "pi",
+   "same": 20,
+   "n": 20
+  },
+  {
    "model": "llama3.2:3b",
    "tier": "vps",
    "same": 20,
@@ -1005,6 +1113,12 @@
   {
    "model": "llama3.2:3b",
    "tier": "homelab",
+   "same": 20,
+   "n": 20
+  },
+  {
+   "model": "llama3.2:3b",
+   "tier": "pi",
    "same": 20,
    "n": 20
   },
@@ -1029,6 +1143,12 @@
   {
    "model": "qwen3:4b",
    "tier": "homelab",
+   "same": 20,
+   "n": 20
+  },
+  {
+   "model": "qwen3:4b",
+   "tier": "pi",
    "same": 20,
    "n": 20
   },
@@ -1206,6 +1326,60 @@
    "agg_tps": 12.97,
    "max_latency": 39.085,
    "mean_req_tps": 5.815,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 1,
+   "round": 0,
+   "agg_tps": 1.17,
+   "max_latency": 121.805,
+   "mean_req_tps": 1.59,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 1,
+   "round": 1,
+   "agg_tps": 1.08,
+   "max_latency": 88.665,
+   "mean_req_tps": 1.61,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 2,
+   "round": 0,
+   "agg_tps": 2.46,
+   "max_latency": 95.152,
+   "mean_req_tps": 1.46,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 2,
+   "round": 1,
+   "agg_tps": 1.66,
+   "max_latency": 185.339,
+   "mean_req_tps": 1.45,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 4,
+   "round": 0,
+   "agg_tps": 2.73,
+   "max_latency": 191.984,
+   "mean_req_tps": 0.8275,
+   "errors": 0
+  },
+  {
+   "tier": "pi",
+   "n": 4,
+   "round": 1,
+   "agg_tps": 1.75,
+   "max_latency": 279.15,
+   "mean_req_tps": 0.8250000000000001,
    "errors": 0
   }
  ]

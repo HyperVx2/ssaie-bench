@@ -64,7 +64,7 @@ laptop_file = os.path.join(R, "laptop", "quality.jsonl")
 if not os.path.exists(laptop_file):
     laptop_file = os.path.join(R, "laptop", "quality_final.jsonl")
 lap = latest(rows(laptop_file) or rows(os.path.join(R, "laptop", "quality_partial.jsonl")))
-srv = {t: latest(rows(os.path.join(R, t, "speed.jsonl"))) for t in ("vps", "homelab")}
+srv = {t: latest(rows(os.path.join(R, t, "speed.jsonl"))) for t in ("vps", "homelab", "pi")}
 gem_a = {r["id"]: r for r in rows(os.path.join(R, "frontier", "answers.jsonl"))}
 gem_b = {r["id"]: r for r in rows(os.path.join(R, "frontier", "generated.jsonl"))}
 judg = {r["uid"]: r for r in rows(os.path.join(R, "frontier", "judgements.jsonl"))}
@@ -180,7 +180,7 @@ def speed_rows(tier, m):
 
 
 speed = []
-for tier in ("homelab", "vps", "laptop"):
+for tier in ("homelab", "vps", "laptop", "pi"):
     for m in models:
         A, B, L, LF = speed_rows(tier, m)
         if not (A or B or L or LF):
@@ -201,7 +201,7 @@ report["speed"] = speed
 agree = []
 subset = [i for i in item_ids if lap.get((models[0], "A", i), {}).get("speed_subset")] if models else []
 for m in models:
-    for tier in ("vps", "homelab"):
+    for tier in ("vps", "homelab", "pi"):
         same = tot = 0
         for i in subset:
             a = lap.get((m, "A", i), {})
@@ -215,7 +215,7 @@ report["agreement"] = agree
 
 # concurrency
 conc = []
-for tier in ("homelab", "vps", "laptop"):
+for tier in ("homelab", "vps", "laptop", "pi"):
     for r in rows(os.path.join(R, tier, "concurrency.jsonl")):
         reqs = [q for q in r["requests"] if q and "wall_s" in q]
         conc.append({"tier": tier, "n": r["concurrency"], "round": r["round"],
