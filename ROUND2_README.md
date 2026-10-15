@@ -45,6 +45,7 @@ On each machine, inside the `ssaie-bench` folder:
 tmux new -s round2 'bash round2.sh vps'        # on the VPS
 tmux new -s round2 'bash round2.sh homelab'    # on the homelab LXC
 tmux new -s round2 'bash round2.sh laptop'     # on the laptop (WSL)
+tmux new -s round2 'bash round2.sh pi'         # on the Raspberry Pi 4 (64-bit OS only; speed run, no accuracy test)
 ```
 
 What the script does:
