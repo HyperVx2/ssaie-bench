@@ -7,8 +7,7 @@ OUT = sys.argv[2] if len(sys.argv) > 2 else "out"
 os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-MODEL_ORDER = ["gemma3:1b", "llama3.2:1b", "qwen3.5:0.8b", "qwen3:1.7b", "llama3.2:3b",
-               "phi4-mini:3.8b", "qwen3:4b", "gemma3:4b", "qwen3:8b"]
+MODEL_ORDER = ["gemma3:1b", "llama3.2:1b", "qwen3.5:0.8b", "qwen3:1.7b", "qwen3.5:2b", "llama3.2:3b", "qwen2.5:3b", "granite4:3b", "ministral-3:3b", "phi4-mini:3.8b", "qwen3:4b", "qwen3.5:4b", "gemma3:4b", "qwen3:8b"]
 
 
 def rows(p):
