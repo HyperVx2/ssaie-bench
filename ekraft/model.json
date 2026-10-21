@@ -1,0 +1,12 @@
+{
+  "name": "EKraft v1, plan-first (Qwen3-4B QLoRA, synthetic training data)",
+  "ollama_name": "ekraft-v1-plan:4b",
+  "file": "ekraft-v1-4b-plan.Q4_K_M.gguf",
+  "url": "https://huggingface.co/Jaygg012/EKraft-v1-4B-plan-GGUF/resolve/main/ekraft-v1-4b-plan.Q4_K_M.gguf",
+  "sha256": "e791a5af8f6ea6e6645c218ccb8cb561414475e40f7a274a3fefbd027d9bdcc2",
+  "bytes": 2497281056,
+  "base_model": "Qwen/Qwen3-4B",
+  "training_run": "Qwen3-4B-data_plan-20261016-2136",
+  "hf_repo": "https://huggingface.co/Jaygg012/EKraft-v1-4B-plan-GGUF",
+  "hf_private": false
+}

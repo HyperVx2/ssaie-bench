@@ -1,0 +1,231 @@
+{"id": "NET1-0007", "subject": "Data Communication and Networking 1", "topic": "Topologies", "bloom": "Remember"}
+{"id": "NET1-0008", "subject": "Data Communication and Networking 1", "topic": "Addressing", "bloom": "Remember"}
+{"id": "NET1-0012", "subject": "Data Communication and Networking 1", "topic": "Encapsulation", "bloom": "Remember"}
+{"id": "NET1-0015", "subject": "Data Communication and Networking 1", "topic": "Ports and protocols", "bloom": "Remember"}
+{"id": "NET1-0017", "subject": "Data Communication and Networking 1", "topic": "Transport layer", "bloom": "Understand"}
+{"id": "NET1-0020", "subject": "Data Communication and Networking 1", "topic": "Network services", "bloom": "Understand"}
+{"id": "NET1-0023", "subject": "Data Communication and Networking 1", "topic": "Transmission modes", "bloom": "Understand"}
+{"id": "NET1-0028", "subject": "Data Communication and Networking 1", "topic": "IP addressing", "bloom": "Apply"}
+{"id": "NET1-0029", "subject": "Data Communication and Networking 1", "topic": "Subnetting", "bloom": "Apply"}
+{"id": "NET1-0035", "subject": "Data Communication and Networking 1", "topic": "Bandwidth", "bloom": "Apply"}
+{"id": "NET1-0036", "subject": "Data Communication and Networking 1", "topic": "Troubleshooting", "bloom": "Apply"}
+{"id": "NET1-0037", "subject": "Data Communication and Networking 1", "topic": "Troubleshooting tools", "bloom": "Apply"}
+{"id": "NET1-0048", "subject": "Data Communication and Networking 1", "topic": "Broadcast domains", "bloom": "Analyze"}
+{"id": "NET1-0049", "subject": "Data Communication and Networking 1", "topic": "Switching", "bloom": "Analyze"}
+{"id": "SE1-0001", "subject": "Software Engineering 1", "topic": "SDLC", "bloom": "Remember"}
+{"id": "SE1-0002", "subject": "Software Engineering 1", "topic": "UML", "bloom": "Remember"}
+{"id": "SE1-0007", "subject": "Software Engineering 1", "topic": "Version control", "bloom": "Remember"}
+{"id": "SE1-0013", "subject": "Software Engineering 1", "topic": "Design principles", "bloom": "Remember"}
+{"id": "SE1-0024", "subject": "Software Engineering 1", "topic": "Quality assurance", "bloom": "Understand"}
+{"id": "SE1-0026", "subject": "Software Engineering 1", "topic": "Process models", "bloom": "Apply"}
+{"id": "SE1-0029", "subject": "Software Engineering 1", "topic": "Estimation", "bloom": "Apply"}
+{"id": "SE1-0031", "subject": "Software Engineering 1", "topic": "Modeling", "bloom": "Apply"}
+{"id": "SE1-0033", "subject": "Software Engineering 1", "topic": "Requirements", "bloom": "Apply"}
+{"id": "SE1-0035", "subject": "Software Engineering 1", "topic": "Scheduling", "bloom": "Apply"}
+{"id": "SE1-0036", "subject": "Software Engineering 1", "topic": "Risk management", "bloom": "Apply"}
+{"id": "SE1-0038", "subject": "Software Engineering 1", "topic": "Refactoring", "bloom": "Apply"}
+{"id": "SE1-0040", "subject": "Software Engineering 1", "topic": "DevOps", "bloom": "Apply"}
+{"id": "SE1-0042", "subject": "Software Engineering 1", "topic": "Technical debt", "bloom": "Analyze"}
+{"id": "SE1-0046", "subject": "Software Engineering 1", "topic": "Testing", "bloom": "Analyze"}
+{"id": "SE1-0047", "subject": "Software Engineering 1", "topic": "Agile", "bloom": "Analyze"}
+{"id": "SE1-0050", "subject": "Software Engineering 1", "topic": "Prototyping", "bloom": "Analyze"}
+{"id": "NET1-0052", "subject": "Data Communication and Networking 1", "topic": "Data communication fundamentals", "bloom": "Remember"}
+{"id": "NET1-0067", "subject": "Data Communication and Networking 1", "topic": "Data communication fundamentals", "bloom": "Understand"}
+{"id": "NET1-0084", "subject": "Data Communication and Networking 1", "topic": "Data communication fundamentals", "bloom": "Apply"}
+{"id": "NET1-0095", "subject": "Data Communication and Networking 1", "topic": "Data communication fundamentals", "bloom": "Analyze"}
+{"id": "NET1-0097", "subject": "Data Communication and Networking 1", "topic": "Data communication fundamentals", "bloom": "Analyze"}
+{"id": "NET1-0111", "subject": "Data Communication and Networking 1", "topic": "Network types and topologies", "bloom": "Understand"}
+{"id": "NET1-0120", "subject": "Data Communication and Networking 1", "topic": "Network types and topologies", "bloom": "Understand"}
+{"id": "NET1-0128", "subject": "Data Communication and Networking 1", "topic": "Network types and topologies", "bloom": "Apply"}
+{"id": "NET1-0134", "subject": "Data Communication and Networking 1", "topic": "Network types and topologies", "bloom": "Apply"}
+{"id": "NET1-0146", "subject": "Data Communication and Networking 1", "topic": "Network types and topologies", "bloom": "Analyze"}
+{"id": "NET1-0147", "subject": "Data Communication and Networking 1", "topic": "OSI model", "bloom": "Remember"}
+{"id": "NET1-0160", "subject": "Data Communication and Networking 1", "topic": "OSI model", "bloom": "Understand"}
+{"id": "NET1-0172", "subject": "Data Communication and Networking 1", "topic": "OSI model", "bloom": "Apply"}
+{"id": "NET1-0178", "subject": "Data Communication and Networking 1", "topic": "OSI model", "bloom": "Apply"}
+{"id": "NET1-0194", "subject": "Data Communication and Networking 1", "topic": "OSI model", "bloom": "Analyze"}
+{"id": "NET1-0207", "subject": "Data Communication and Networking 1", "topic": "TCP/IP model and encapsulation", "bloom": "Understand"}
+{"id": "NET1-0222", "subject": "Data Communication and Networking 1", "topic": "TCP/IP model and encapsulation", "bloom": "Apply"}
+{"id": "NET1-0227", "subject": "Data Communication and Networking 1", "topic": "TCP/IP model and encapsulation", "bloom": "Apply"}
+{"id": "NET1-0239", "subject": "Data Communication and Networking 1", "topic": "TCP/IP model and encapsulation", "bloom": "Analyze"}
+{"id": "NET1-0242", "subject": "Data Communication and Networking 1", "topic": "TCP/IP model and encapsulation", "bloom": "Analyze"}
+{"id": "NET1-0256", "subject": "Data Communication and Networking 1", "topic": "Transmission media", "bloom": "Understand"}
+{"id": "NET1-0258", "subject": "Data Communication and Networking 1", "topic": "Transmission media", "bloom": "Understand"}
+{"id": "NET1-0264", "subject": "Data Communication and Networking 1", "topic": "Transmission media", "bloom": "Understand"}
+{"id": "NET1-0284", "subject": "Data Communication and Networking 1", "topic": "Transmission media", "bloom": "Analyze"}
+{"id": "NET1-0287", "subject": "Data Communication and Networking 1", "topic": "Transmission media", "bloom": "Analyze"}
+{"id": "NET1-0319", "subject": "Data Communication and Networking 1", "topic": "Signals and transmission impairments", "bloom": "Apply"}
+{"id": "NET1-0322", "subject": "Data Communication and Networking 1", "topic": "Signals and transmission impairments", "bloom": "Apply"}
+{"id": "NET1-0326", "subject": "Data Communication and Networking 1", "topic": "Signals and transmission impairments", "bloom": "Analyze"}
+{"id": "NET1-0328", "subject": "Data Communication and Networking 1", "topic": "Signals and transmission impairments", "bloom": "Analyze"}
+{"id": "NET1-0332", "subject": "Data Communication and Networking 1", "topic": "Signals and transmission impairments", "bloom": "Analyze"}
+{"id": "NET1-0345", "subject": "Data Communication and Networking 1", "topic": "Encoding, modulation and multiplexing", "bloom": "Remember"}
+{"id": "NET1-0357", "subject": "Data Communication and Networking 1", "topic": "Encoding, modulation and multiplexing", "bloom": "Understand"}
+{"id": "NET1-0359", "subject": "Data Communication and Networking 1", "topic": "Encoding, modulation and multiplexing", "bloom": "Understand"}
+{"id": "NET1-0365", "subject": "Data Communication and Networking 1", "topic": "Encoding, modulation and multiplexing", "bloom": "Apply"}
+{"id": "NET1-0373", "subject": "Data Communication and Networking 1", "topic": "Encoding, modulation and multiplexing", "bloom": "Apply"}
+{"id": "NET1-0399", "subject": "Data Communication and Networking 1", "topic": "Data link layer and Ethernet", "bloom": "Understand"}
+{"id": "NET1-0401", "subject": "Data Communication and Networking 1", "topic": "Data link layer and Ethernet", "bloom": "Understand"}
+{"id": "NET1-0405", "subject": "Data Communication and Networking 1", "topic": "Data link layer and Ethernet", "bloom": "Understand"}
+{"id": "NET1-0416", "subject": "Data Communication and Networking 1", "topic": "Data link layer and Ethernet", "bloom": "Apply"}
+{"id": "NET1-0423", "subject": "Data Communication and Networking 1", "topic": "Data link layer and Ethernet", "bloom": "Analyze"}
+{"id": "NET1-0443", "subject": "Data Communication and Networking 1", "topic": "Switching and VLAN basics", "bloom": "Remember"}
+{"id": "NET1-0460", "subject": "Data Communication and Networking 1", "topic": "Switching and VLAN basics", "bloom": "Apply"}
+{"id": "NET1-0465", "subject": "Data Communication and Networking 1", "topic": "Switching and VLAN basics", "bloom": "Apply"}
+{"id": "NET1-0471", "subject": "Data Communication and Networking 1", "topic": "Switching and VLAN basics", "bloom": "Analyze"}
+{"id": "NET1-0478", "subject": "Data Communication and Networking 1", "topic": "Switching and VLAN basics", "bloom": "Analyze"}
+{"id": "NET1-0490", "subject": "Data Communication and Networking 1", "topic": "Network devices", "bloom": "Remember"}
+{"id": "NET1-0503", "subject": "Data Communication and Networking 1", "topic": "Network devices", "bloom": "Understand"}
+{"id": "NET1-0505", "subject": "Data Communication and Networking 1", "topic": "Network devices", "bloom": "Apply"}
+{"id": "NET1-0507", "subject": "Data Communication and Networking 1", "topic": "Network devices", "bloom": "Apply"}
+{"id": "NET1-0517", "subject": "Data Communication and Networking 1", "topic": "Network devices", "bloom": "Apply"}
+{"id": "NET1-0539", "subject": "Data Communication and Networking 1", "topic": "IPv4 addressing", "bloom": "Remember"}
+{"id": "NET1-0543", "subject": "Data Communication and Networking 1", "topic": "IPv4 addressing", "bloom": "Understand"}
+{"id": "NET1-0548", "subject": "Data Communication and Networking 1", "topic": "IPv4 addressing", "bloom": "Understand"}
+{"id": "NET1-0554", "subject": "Data Communication and Networking 1", "topic": "IPv4 addressing", "bloom": "Apply"}
+{"id": "NET1-0571", "subject": "Data Communication and Networking 1", "topic": "IPv4 addressing", "bloom": "Analyze"}
+{"id": "NET1-0587", "subject": "Data Communication and Networking 1", "topic": "Subnetting and VLSM", "bloom": "Remember"}
+{"id": "NET1-0604", "subject": "Data Communication and Networking 1", "topic": "Subnetting and VLSM", "bloom": "Apply"}
+{"id": "NET1-0609", "subject": "Data Communication and Networking 1", "topic": "Subnetting and VLSM", "bloom": "Apply"}
+{"id": "NET1-0610", "subject": "Data Communication and Networking 1", "topic": "Subnetting and VLSM", "bloom": "Apply"}
+{"id": "NET1-0624", "subject": "Data Communication and Networking 1", "topic": "Subnetting and VLSM", "bloom": "Analyze"}
+{"id": "NET1-0627", "subject": "Data Communication and Networking 1", "topic": "IPv6 basics", "bloom": "Remember"}
+{"id": "NET1-0630", "subject": "Data Communication and Networking 1", "topic": "IPv6 basics", "bloom": "Remember"}
+{"id": "NET1-0634", "subject": "Data Communication and Networking 1", "topic": "IPv6 basics", "bloom": "Remember"}
+{"id": "NET1-0658", "subject": "Data Communication and Networking 1", "topic": "IPv6 basics", "bloom": "Apply"}
+{"id": "NET1-0670", "subject": "Data Communication and Networking 1", "topic": "IPv6 basics", "bloom": "Analyze"}
+{"id": "NET1-0674", "subject": "Data Communication and Networking 1", "topic": "Routing basics", "bloom": "Remember"}
+{"id": "NET1-0683", "subject": "Data Communication and Networking 1", "topic": "Routing basics", "bloom": "Remember"}
+{"id": "NET1-0689", "subject": "Data Communication and Networking 1", "topic": "Routing basics", "bloom": "Understand"}
+{"id": "NET1-0692", "subject": "Data Communication and Networking 1", "topic": "Routing basics", "bloom": "Understand"}
+{"id": "NET1-0693", "subject": "Data Communication and Networking 1", "topic": "Routing basics", "bloom": "Understand"}
+{"id": "NET1-0723", "subject": "Data Communication and Networking 1", "topic": "Transport layer: TCP and UDP", "bloom": "Remember"}
+{"id": "NET1-0724", "subject": "Data Communication and Networking 1", "topic": "Transport layer: TCP and UDP", "bloom": "Remember"}
+{"id": "NET1-0731", "subject": "Data Communication and Networking 1", "topic": "Transport layer: TCP and UDP", "bloom": "Understand"}
+{"id": "NET1-0745", "subject": "Data Communication and Networking 1", "topic": "Transport layer: TCP and UDP", "bloom": "Apply"}
+{"id": "NET1-0759", "subject": "Data Communication and Networking 1", "topic": "Transport layer: TCP and UDP", "bloom": "Analyze"}
+{"id": "NET1-0785", "subject": "Data Communication and Networking 1", "topic": "Application layer protocols", "bloom": "Understand"}
+{"id": "NET1-0794", "subject": "Data Communication and Networking 1", "topic": "Application layer protocols", "bloom": "Apply"}
+{"id": "NET1-0795", "subject": "Data Communication and Networking 1", "topic": "Application layer protocols", "bloom": "Apply"}
+{"id": "NET1-0808", "subject": "Data Communication and Networking 1", "topic": "Application layer protocols", "bloom": "Analyze"}
+{"id": "NET1-0815", "subject": "Data Communication and Networking 1", "topic": "Application layer protocols", "bloom": "Analyze"}
+{"id": "NET1-0818", "subject": "Data Communication and Networking 1", "topic": "Wireless LANs", "bloom": "Remember"}
+{"id": "NET1-0820", "subject": "Data Communication and Networking 1", "topic": "Wireless LANs", "bloom": "Remember"}
+{"id": "NET1-0829", "subject": "Data Communication and Networking 1", "topic": "Wireless LANs", "bloom": "Understand"}
+{"id": "NET1-0852", "subject": "Data Communication and Networking 1", "topic": "Wireless LANs", "bloom": "Analyze"}
+{"id": "NET1-0859", "subject": "Data Communication and Networking 1", "topic": "Wireless LANs", "bloom": "Analyze"}
+{"id": "NET1-0869", "subject": "Data Communication and Networking 1", "topic": "Network troubleshooting and tools", "bloom": "Remember"}
+{"id": "NET1-0871", "subject": "Data Communication and Networking 1", "topic": "Network troubleshooting and tools", "bloom": "Remember"}
+{"id": "NET1-0874", "subject": "Data Communication and Networking 1", "topic": "Network troubleshooting and tools", "bloom": "Understand"}
+{"id": "NET1-0904", "subject": "Data Communication and Networking 1", "topic": "Network troubleshooting and tools", "bloom": "Analyze"}
+{"id": "NET1-0906", "subject": "Data Communication and Networking 1", "topic": "Network troubleshooting and tools", "bloom": "Analyze"}
+{"id": "NET1-0935", "subject": "Data Communication and Networking 1", "topic": "Structured cabling", "bloom": "Apply"}
+{"id": "NET1-0937", "subject": "Data Communication and Networking 1", "topic": "Structured cabling", "bloom": "Apply"}
+{"id": "NET1-0941", "subject": "Data Communication and Networking 1", "topic": "Structured cabling", "bloom": "Apply"}
+{"id": "NET1-0944", "subject": "Data Communication and Networking 1", "topic": "Structured cabling", "bloom": "Apply"}
+{"id": "NET1-0950", "subject": "Data Communication and Networking 1", "topic": "Structured cabling", "bloom": "Analyze"}
+{"id": "NET1-0981", "subject": "Data Communication and Networking 1", "topic": "Network security basics", "bloom": "Understand"}
+{"id": "NET1-0990", "subject": "Data Communication and Networking 1", "topic": "Network security basics", "bloom": "Apply"}
+{"id": "NET1-0993", "subject": "Data Communication and Networking 1", "topic": "Network security basics", "bloom": "Apply"}
+{"id": "NET1-1005", "subject": "Data Communication and Networking 1", "topic": "Network security basics", "bloom": "Analyze"}
+{"id": "NET1-1006", "subject": "Data Communication and Networking 1", "topic": "Network security basics", "bloom": "Analyze"}
+{"id": "SE1-0057", "subject": "Software Engineering 1", "topic": "Software engineering fundamentals", "bloom": "Remember"}
+{"id": "SE1-0062", "subject": "Software Engineering 1", "topic": "Software engineering fundamentals", "bloom": "Understand"}
+{"id": "SE1-0071", "subject": "Software Engineering 1", "topic": "Software engineering fundamentals", "bloom": "Understand"}
+{"id": "SE1-0095", "subject": "Software Engineering 1", "topic": "Software engineering fundamentals", "bloom": "Analyze"}
+{"id": "SE1-0097", "subject": "Software Engineering 1", "topic": "Software engineering fundamentals", "bloom": "Analyze"}
+{"id": "SE1-0100", "subject": "Software Engineering 1", "topic": "Software development life cycle", "bloom": "Remember"}
+{"id": "SE1-0111", "subject": "Software Engineering 1", "topic": "Software development life cycle", "bloom": "Understand"}
+{"id": "SE1-0112", "subject": "Software Engineering 1", "topic": "Software development life cycle", "bloom": "Understand"}
+{"id": "SE1-0117", "subject": "Software Engineering 1", "topic": "Software development life cycle", "bloom": "Understand"}
+{"id": "SE1-0140", "subject": "Software Engineering 1", "topic": "Software development life cycle", "bloom": "Analyze"}
+{"id": "SE1-0148", "subject": "Software Engineering 1", "topic": "Plan-driven process models", "bloom": "Remember"}
+{"id": "SE1-0157", "subject": "Software Engineering 1", "topic": "Plan-driven process models", "bloom": "Understand"}
+{"id": "SE1-0167", "subject": "Software Engineering 1", "topic": "Plan-driven process models", "bloom": "Understand"}
+{"id": "SE1-0181", "subject": "Software Engineering 1", "topic": "Plan-driven process models", "bloom": "Apply"}
+{"id": "SE1-0188", "subject": "Software Engineering 1", "topic": "Plan-driven process models", "bloom": "Analyze"}
+{"id": "SE1-0201", "subject": "Software Engineering 1", "topic": "Agile principles", "bloom": "Remember"}
+{"id": "SE1-0205", "subject": "Software Engineering 1", "topic": "Agile principles", "bloom": "Understand"}
+{"id": "SE1-0208", "subject": "Software Engineering 1", "topic": "Agile principles", "bloom": "Understand"}
+{"id": "SE1-0210", "subject": "Software Engineering 1", "topic": "Agile principles", "bloom": "Understand"}
+{"id": "SE1-0237", "subject": "Software Engineering 1", "topic": "Agile principles", "bloom": "Analyze"}
+{"id": "SE1-0245", "subject": "Software Engineering 1", "topic": "Scrum", "bloom": "Remember"}
+{"id": "SE1-0254", "subject": "Software Engineering 1", "topic": "Scrum", "bloom": "Understand"}
+{"id": "SE1-0260", "subject": "Software Engineering 1", "topic": "Scrum", "bloom": "Understand"}
+{"id": "SE1-0266", "subject": "Software Engineering 1", "topic": "Scrum", "bloom": "Apply"}
+{"id": "SE1-0281", "subject": "Software Engineering 1", "topic": "Scrum", "bloom": "Analyze"}
+{"id": "SE1-0293", "subject": "Software Engineering 1", "topic": "Kanban, XP and Lean", "bloom": "Remember"}
+{"id": "SE1-0306", "subject": "Software Engineering 1", "topic": "Kanban, XP and Lean", "bloom": "Understand"}
+{"id": "SE1-0320", "subject": "Software Engineering 1", "topic": "Kanban, XP and Lean", "bloom": "Apply"}
+{"id": "SE1-0327", "subject": "Software Engineering 1", "topic": "Kanban, XP and Lean", "bloom": "Analyze"}
+{"id": "SE1-0336", "subject": "Software Engineering 1", "topic": "Kanban, XP and Lean", "bloom": "Analyze"}
+{"id": "SE1-0351", "subject": "Software Engineering 1", "topic": "Requirements elicitation", "bloom": "Understand"}
+{"id": "SE1-0361", "subject": "Software Engineering 1", "topic": "Requirements elicitation", "bloom": "Apply"}
+{"id": "SE1-0363", "subject": "Software Engineering 1", "topic": "Requirements elicitation", "bloom": "Apply"}
+{"id": "SE1-0378", "subject": "Software Engineering 1", "topic": "Requirements elicitation", "bloom": "Analyze"}
+{"id": "SE1-0382", "subject": "Software Engineering 1", "topic": "Requirements elicitation", "bloom": "Analyze"}
+{"id": "SE1-0407", "subject": "Software Engineering 1", "topic": "Requirements specification", "bloom": "Understand"}
+{"id": "SE1-0412", "subject": "Software Engineering 1", "topic": "Requirements specification", "bloom": "Apply"}
+{"id": "SE1-0418", "subject": "Software Engineering 1", "topic": "Requirements specification", "bloom": "Apply"}
+{"id": "SE1-0428", "subject": "Software Engineering 1", "topic": "Requirements specification", "bloom": "Analyze"}
+{"id": "SE1-0431", "subject": "Software Engineering 1", "topic": "Requirements specification", "bloom": "Analyze"}
+{"id": "SE1-0443", "subject": "Software Engineering 1", "topic": "UML use case modeling", "bloom": "Remember"}
+{"id": "SE1-0456", "subject": "Software Engineering 1", "topic": "UML use case modeling", "bloom": "Apply"}
+{"id": "SE1-0457", "subject": "Software Engineering 1", "topic": "UML use case modeling", "bloom": "Apply"}
+{"id": "SE1-0461", "subject": "Software Engineering 1", "topic": "UML use case modeling", "bloom": "Apply"}
+{"id": "SE1-0464", "subject": "Software Engineering 1", "topic": "UML use case modeling", "bloom": "Apply"}
+{"id": "SE1-0493", "subject": "Software Engineering 1", "topic": "UML class and object diagrams", "bloom": "Understand"}
+{"id": "SE1-0495", "subject": "Software Engineering 1", "topic": "UML class and object diagrams", "bloom": "Understand"}
+{"id": "SE1-0503", "subject": "Software Engineering 1", "topic": "UML class and object diagrams", "bloom": "Understand"}
+{"id": "SE1-0507", "subject": "Software Engineering 1", "topic": "UML class and object diagrams", "bloom": "Apply"}
+{"id": "SE1-0528", "subject": "Software Engineering 1", "topic": "UML class and object diagrams", "bloom": "Analyze"}
+{"id": "SE1-0531", "subject": "Software Engineering 1", "topic": "UML behavioral diagrams", "bloom": "Remember"}
+{"id": "SE1-0533", "subject": "Software Engineering 1", "topic": "UML behavioral diagrams", "bloom": "Remember"}
+{"id": "SE1-0555", "subject": "Software Engineering 1", "topic": "UML behavioral diagrams", "bloom": "Apply"}
+{"id": "SE1-0557", "subject": "Software Engineering 1", "topic": "UML behavioral diagrams", "bloom": "Apply"}
+{"id": "SE1-0561", "subject": "Software Engineering 1", "topic": "UML behavioral diagrams", "bloom": "Apply"}
+{"id": "SE1-0585", "subject": "Software Engineering 1", "topic": "Software design principles", "bloom": "Remember"}
+{"id": "SE1-0593", "subject": "Software Engineering 1", "topic": "Software design principles", "bloom": "Understand"}
+{"id": "SE1-0594", "subject": "Software Engineering 1", "topic": "Software design principles", "bloom": "Understand"}
+{"id": "SE1-0614", "subject": "Software Engineering 1", "topic": "Software design principles", "bloom": "Analyze"}
+{"id": "SE1-0618", "subject": "Software Engineering 1", "topic": "Software design principles", "bloom": "Analyze"}
+{"id": "SE1-0629", "subject": "Software Engineering 1", "topic": "Software architecture", "bloom": "Remember"}
+{"id": "SE1-0636", "subject": "Software Engineering 1", "topic": "Software architecture", "bloom": "Understand"}
+{"id": "SE1-0649", "subject": "Software Engineering 1", "topic": "Software architecture", "bloom": "Apply"}
+{"id": "SE1-0651", "subject": "Software Engineering 1", "topic": "Software architecture", "bloom": "Apply"}
+{"id": "SE1-0663", "subject": "Software Engineering 1", "topic": "Software architecture", "bloom": "Analyze"}
+{"id": "SE1-0683", "subject": "Software Engineering 1", "topic": "Design patterns", "bloom": "Remember"}
+{"id": "SE1-0689", "subject": "Software Engineering 1", "topic": "Design patterns", "bloom": "Understand"}
+{"id": "SE1-0694", "subject": "Software Engineering 1", "topic": "Design patterns", "bloom": "Understand"}
+{"id": "SE1-0698", "subject": "Software Engineering 1", "topic": "Design patterns", "bloom": "Apply"}
+{"id": "SE1-0700", "subject": "Software Engineering 1", "topic": "Design patterns", "bloom": "Apply"}
+{"id": "SE1-0722", "subject": "Software Engineering 1", "topic": "Software testing fundamentals", "bloom": "Remember"}
+{"id": "SE1-0728", "subject": "Software Engineering 1", "topic": "Software testing fundamentals", "bloom": "Remember"}
+{"id": "SE1-0746", "subject": "Software Engineering 1", "topic": "Software testing fundamentals", "bloom": "Apply"}
+{"id": "SE1-0750", "subject": "Software Engineering 1", "topic": "Software testing fundamentals", "bloom": "Apply"}
+{"id": "SE1-0767", "subject": "Software Engineering 1", "topic": "Software testing fundamentals", "bloom": "Analyze"}
+{"id": "SE1-0771", "subject": "Software Engineering 1", "topic": "Test design techniques", "bloom": "Remember"}
+{"id": "SE1-0775", "subject": "Software Engineering 1", "topic": "Test design techniques", "bloom": "Remember"}
+{"id": "SE1-0798", "subject": "Software Engineering 1", "topic": "Test design techniques", "bloom": "Apply"}
+{"id": "SE1-0799", "subject": "Software Engineering 1", "topic": "Test design techniques", "bloom": "Apply"}
+{"id": "SE1-0803", "subject": "Software Engineering 1", "topic": "Test design techniques", "bloom": "Apply"}
+{"id": "SE1-0818", "subject": "Software Engineering 1", "topic": "Version control with Git", "bloom": "Remember"}
+{"id": "SE1-0823", "subject": "Software Engineering 1", "topic": "Version control with Git", "bloom": "Remember"}
+{"id": "SE1-0824", "subject": "Software Engineering 1", "topic": "Version control with Git", "bloom": "Remember"}
+{"id": "SE1-0860", "subject": "Software Engineering 1", "topic": "Version control with Git", "bloom": "Analyze"}
+{"id": "SE1-0862", "subject": "Software Engineering 1", "topic": "Version control with Git", "bloom": "Analyze"}
+{"id": "SE1-0875", "subject": "Software Engineering 1", "topic": "Project estimation and scheduling", "bloom": "Remember"}
+{"id": "SE1-0876", "subject": "Software Engineering 1", "topic": "Project estimation and scheduling", "bloom": "Understand"}
+{"id": "SE1-0882", "subject": "Software Engineering 1", "topic": "Project estimation and scheduling", "bloom": "Understand"}
+{"id": "SE1-0891", "subject": "Software Engineering 1", "topic": "Project estimation and scheduling", "bloom": "Apply"}
+{"id": "SE1-0911", "subject": "Software Engineering 1", "topic": "Project estimation and scheduling", "bloom": "Analyze"}
+{"id": "SE1-0922", "subject": "Software Engineering 1", "topic": "Risk management and quality assurance", "bloom": "Remember"}
+{"id": "SE1-0929", "subject": "Software Engineering 1", "topic": "Risk management and quality assurance", "bloom": "Understand"}
+{"id": "SE1-0930", "subject": "Software Engineering 1", "topic": "Risk management and quality assurance", "bloom": "Understand"}
+{"id": "SE1-0944", "subject": "Software Engineering 1", "topic": "Risk management and quality assurance", "bloom": "Apply"}
+{"id": "SE1-0958", "subject": "Software Engineering 1", "topic": "Risk management and quality assurance", "bloom": "Analyze"}
+{"id": "SE1-0968", "subject": "Software Engineering 1", "topic": "Software maintenance and DevOps", "bloom": "Remember"}
+{"id": "SE1-0972", "subject": "Software Engineering 1", "topic": "Software maintenance and DevOps", "bloom": "Understand"}
+{"id": "SE1-0974", "subject": "Software Engineering 1", "topic": "Software maintenance and DevOps", "bloom": "Understand"}
+{"id": "SE1-0981", "subject": "Software Engineering 1", "topic": "Software maintenance and DevOps", "bloom": "Understand"}
+{"id": "SE1-1004", "subject": "Software Engineering 1", "topic": "Software maintenance and DevOps", "bloom": "Analyze"}
